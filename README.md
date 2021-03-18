@@ -31,4 +31,3 @@ chain.Add(block);
 (async () => {
     last_hash = await block.Mine();
 })()
-ts```
