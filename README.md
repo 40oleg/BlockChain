@@ -1,6 +1,5 @@
 # BlockChain
 ## Simple BlockChain example
-### main.ts
 ### To run use "npm run tsc" and next "node main"
 
 main.ts
@@ -32,4 +31,4 @@ chain.Add(block);
 (async () => {
     last_hash = await block.Mine();
 })()
-```ts
+ts```
