@@ -19,7 +19,7 @@ let last_hash: string = "0";
 let block = new Block(4, last_hash);
 
 block.Add(new Transaction(wallet1.id,wallet2.id,Math.round(Math.random()*100)));
-block.Add(new Transaction(wallet2.id,wallet1.id,Math.round(Math.random()*1000)));
+block.Add(new Transaction(wallet2.id,wallet1.id,Math.round(Math.random()*3000)));
 block.Add(new Transaction(wallet2.id,wallet1.id,Math.round(Math.random()*10000)));
 chain.Add(block);
 
